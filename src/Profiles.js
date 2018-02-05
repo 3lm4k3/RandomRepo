@@ -53,28 +53,44 @@ export default class ProfilesScreen extends React.Component {
 				<ScrollView>
 					<Text style={title}>Pros Category</Text>
 					<View style={{ flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
-						<CategoryCard 
-						icon={require('mawkaaTest/images/prices.png')}
-						headerText="hello">
-						
-						</CategoryCard>
-						<CategoryCard 
-						icon={require('mawkaaTest/images/prices.png')}
-						headerText="hello">
-						
-						</CategoryCard>
+						<TouchableOpacity
+							onPress={() => Actions.CategoryProsScreen(PARAMS)}
+						>
+							<CategoryCard 
+							icon={require('mawkaaTest/images/prices.png')}
+							headerText="hello">
+							
+							</CategoryCard>
+						</TouchableOpacity >
+						<TouchableOpacity
+							onPress={() => Actions.CategoryProsScreen(PARAMS)}
+						>
+							<CategoryCard 
+							icon={require('mawkaaTest/images/prices.png')}
+							headerText="hello">
+							
+							</CategoryCard>
+						</TouchableOpacity>
 					</View>
 					<View style={{ flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
-						<CategoryCard 
-						icon={require('mawkaaTest/images/prices.png')}
-						headerText="hello">
-						
-						</CategoryCard>
-						<CategoryCard 
-						icon={require('mawkaaTest/images/prices.png')}
-						headerText="hello">
-						
-						</CategoryCard>
+						<TouchableOpacity
+							onPress={() => Actions.CategoryProsScreen(PARAMS)}
+						>
+							<CategoryCard 
+							icon={require('mawkaaTest/images/prices.png')}
+							headerText="hello">
+							
+							</CategoryCard>
+						</TouchableOpacity>
+						<TouchableOpacity
+							onPress={() => Actions.CategoryProsScreen(PARAMS)}
+						>
+							<CategoryCard 
+							icon={require('mawkaaTest/images/prices.png')}
+							headerText="hello">
+							
+							</CategoryCard>
+						</TouchableOpacity>
 					</View>
 					<Text style={title}>Our Pros.</Text>
 					<Provider store={createStore(reducers)}>
@@ -98,8 +114,8 @@ const styles = {
 		
 		alignItems:'center',
 		justifyContent:'center',
-		backgroundColor:'white',
-
+		backgroundColor:'#F7F7F7',
+		
 		flexDirection:'row',
 		height: 60,
 		paddingTop: 15,

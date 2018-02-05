@@ -30,20 +30,27 @@ import { StackNavigator } from 'react-navigation';
 
 import AfterSignupScreen from "./src/AfterSignup";
 import ProfilesScreen from "./src/Profiles";
+import CategoryProsScreen from './src/CategoryPros';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './src/reducers';
 import { Actions,Router,Stack,Scene } from 'react-native-router-flux';
 
 //get the width and height of the device
 const { width, height } = Dimensions.get('window')
 
 const App = () => (
-  <Router>
+  <Provider store={createStore(reducers)}>
+              <Router>
     <Stack key="root" hideNavBar>
       <Scene key="login" component={TakeTourScreen} title="TakeTourScreen"/>
       <Scene key="register" component={FirstScreen} title="New Account"/>
       <Scene key="home" component={AfterSignupScreen} title="AfterSignupScreen"/>
       <Scene key="profiles" component={ProfilesScreen} title="Profiles"/>
+      <Scene key="CategoryProsScreen" component={CategoryProsScreen} title="CategoryProsScreen"/>
     </Stack>
   </Router>
+            </Provider>
 );
 // Stack navigation controller 
 const BasicApp = StackNavigator({
