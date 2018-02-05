@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/lottie-react-native/lib/android/lottie-react-native.iml" filepath="$PROJECT_DIR$/../node_modules/lottie-react-native/lib/android/lottie-react-native.iml" />
       <module fileurl="file://$PROJECT_DIR$/myScreens.iml" filepath="$PROJECT_DIR$/myScreens.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
     </modules>
   </component>
 </project>

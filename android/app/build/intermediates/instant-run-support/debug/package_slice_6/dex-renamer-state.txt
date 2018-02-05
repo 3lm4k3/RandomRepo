@@ -1,4 +1,4 @@
-#Thu Feb 01 12:32:51 EET 2018
+#Sat Feb 03 02:16:12 EET 2018
 base.0=C\:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
 file.0=C\:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
