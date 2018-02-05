@@ -6,7 +6,8 @@ import {Text,Dimensions, View,
   StatusBar,
   TouchableHighlight} from 'react-native';
 import { Divider } from 'react-native-elements';
-
+import { Actions,PARAMS } from 'react-native-router-flux';
+import LinearGradient from 'react-native-linear-gradient';
 
 
 import { Button,Card,CardSection,Input,Spinner,Checkbox } from './components/common';
@@ -22,11 +23,7 @@ export default class FirstScreen extends React.Component {
   }
 
 	// Setting the naviogation bar title
-  static navigationOptions = {
-    title: 'New Account',
-    headerTintColor: 'black',
-
-  }
+  
 	
 	render(){
 
@@ -38,18 +35,27 @@ export default class FirstScreen extends React.Component {
 
 
 			//setting the whole view back ground image
-        <Image
-          source={require('../images/purpleBackground.png')}
-          style={styles.container}
-
-          
-        >
+        <LinearGradient colors={['#5871B5', '#935CAE']} style={styles.container} >
 
           {/*
             I have an account login button
           */}
+          <View style={styles.header}>
+            <TouchableOpacity
+            
+            style={styles.back}
+
+            onPress={() => Actions.pop()}
+          > 
+            <Image
+               source={require('mawkaaTest/images/prices.png')}
+            ></Image>
+          </TouchableOpacity>
+          <Text style={styles.headerText}>New Account</Text>
+          </View>
           <View style={{justifyContent: 'center',
             alignItems: 'center',}}> 
+
           <TouchableOpacity
             
             style={styles.accountLoginBtn}
@@ -183,7 +189,7 @@ export default class FirstScreen extends React.Component {
             <TouchableOpacity
             
             style={styles.createNewAccountBtn}
-            onPress={() => navigate('AfterSignupScreen')}
+            onPress={() => Actions.home(PARAMS)}
           > 
             <Text style={styles.createAccountTxt}>Create a new Account</Text>
           </TouchableOpacity>
@@ -196,7 +202,7 @@ export default class FirstScreen extends React.Component {
           
 
 				
-				</Image>
+				 </LinearGradient>
 
 
 			
@@ -215,6 +221,23 @@ const styles = StyleSheet.create({
     backgroundColor:'transparent',
 
     
+  },
+  back:{
+    marginLeft:20,
+  },
+  header:{
+    marginTop:32,
+    flexDirection:'row',
+    
+  },
+  headerText:{
+    fontWeight:"bold",
+    fontSize:17,
+    color:'white',
+    marginLeft:75,
+
+
+
   },
   socialLogin: {
     flexDirection:'row',

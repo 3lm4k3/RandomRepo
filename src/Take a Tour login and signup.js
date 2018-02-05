@@ -5,7 +5,7 @@ import {Text, View,StyleSheet,TouchableHighlight,
   StatusBar,} from 'react-native';
 
 import Swiper from 'react-native-swiper';
-
+import { Actions,PARAMS } from 'react-native-router-flux';
 
 const { width, height } = Dimensions.get('window')
 
@@ -13,10 +13,7 @@ const { width, height } = Dimensions.get('window')
 export default class TakeTourScreen extends React.Component {
 
 	// customizing navigation page options :title
-	static navigationOptions = {
-		
-		title:'Login',
-	}
+	
 	// Rendered screen elements
 	render(){
 		
@@ -71,13 +68,14 @@ export default class TakeTourScreen extends React.Component {
 	{/* Login and Signup buttons for navigation through pages */}
         <TouchableHighlight
           style={styles.LoginButton}
-          onPress={() => navigate('SecondLoginScreen')}
+          onPress={() => Actions.register(PARAMS)}
           
           underlayColor='#fff'>
           <Text style={styles.LoginButtonText}>Login</Text>
         </TouchableHighlight>
         <TouchableHighlight
           style={styles.SignupButton}
+          onPress={() => Actions.profiles(PARAMS)}
           underlayColor='#fff'>
           <Text style={styles.signupButtonText}>Sign up</Text>
         </TouchableHighlight>

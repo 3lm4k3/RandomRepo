@@ -29,14 +29,27 @@ import TakeTourScreen from "./src/Take a Tour login and signup";
 import { StackNavigator } from 'react-navigation';
 
 import AfterSignupScreen from "./src/AfterSignup";
+import ProfilesScreen from "./src/Profiles";
+import { Actions,Router,Stack,Scene } from 'react-native-router-flux';
 
 //get the width and height of the device
 const { width, height } = Dimensions.get('window')
+
+const App = () => (
+  <Router>
+    <Stack key="root" hideNavBar>
+      <Scene key="login" component={TakeTourScreen} title="TakeTourScreen"/>
+      <Scene key="register" component={FirstScreen} title="New Account"/>
+      <Scene key="home" component={AfterSignupScreen} title="AfterSignupScreen"/>
+      <Scene key="profiles" component={ProfilesScreen} title="Profiles"/>
+    </Stack>
+  </Router>
+);
 // Stack navigation controller 
 const BasicApp = StackNavigator({
   //name of the screen in the navigation controller: {screen : imported js screen file name}
   TakeTour: {screen: TakeTourScreen},
-  SecondLoginScreen: {screen: FirstScreen},
+  SecondLoginScreen: {screen: TakeTourScreen},
   AfterSignupScreen: {screen: AfterSignupScreen},
 });
 // Tapbar navigation controller
@@ -78,4 +91,4 @@ MainScreenNavigator.navigationOptions = {
 };
 
 // using the stack navigation option
-AppRegistry.registerComponent('mawkaaTest', () => BasicApp);
+AppRegistry.registerComponent('mawkaaTest', () => App);
