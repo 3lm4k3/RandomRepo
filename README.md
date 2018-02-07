@@ -1,1 +1,1 @@
-![](https://i.imgur.com/GZqVNPR.gifv)
+![](https://thumbs.gfycat.com/SkeletalMildFurseal-size_restricted.gif)
