@@ -9,7 +9,7 @@ import {
 import Post from "../Post/index"
 
 export default (props) => (
-  <View>
+  <View style={{marginBottom: 50}} >
     {
       // props.posts.map(el => (
       //   <Post/>

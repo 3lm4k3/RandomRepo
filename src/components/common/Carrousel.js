@@ -15,7 +15,7 @@ const getRandomColor = () => randomColors[parseInt(Math.random()*4)]
 
 export default (props) => (
   <View style={ styles.container } >
-    <ScrollView horizontal bounces alwaysBounceHorizontal>
+    <ScrollView horizontal bounces alwaysBounceHorizontal showsHorizontalScrollIndicator={false}>
       <CarrouselCard title="Engineers" color={getRandomColor()}/>
       <CarrouselCard title="Contractors" color={getRandomColor()}/>
       <CarrouselCard title="Clients" color={getRandomColor()}/>

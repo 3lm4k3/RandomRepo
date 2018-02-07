@@ -4,6 +4,7 @@ import { Router, Scene } from "react-native-router-flux"
 
 import Login from "./src/components/Login/index" // Login Component 
 import NewsFeed from "./src/components/NewsFeed/index" // NewsFeed Component 
+import Bids from "./src/components/Bids/index" // NewsFeed Component 
 
 
 
@@ -14,8 +15,8 @@ export default class App extends React.Component {
       <Router>
         <Scene key="root" hideNavBar> 
           <Scene key="login" component={Login} title="Login"/>
-          <Scene key="newsfeed" initial component={NewsFeed} title="NewsFeed"/>
-          {/* <Scene key="home" component={Home}/> */}
+          <Scene key="newsfeed" component={NewsFeed} title="NewsFeed"/>
+          <Scene key="bids" initial component={Bids} title="Bids"/>
         </Scene>
       </Router>
     );

@@ -41,7 +41,7 @@ export default class NewsFeed extends React.Component {
   }
   loadMorePosts = () => {
     // After Loading
-    this.setState({reachedIndicator: false})
+    // this.setState({reachedIndicator: false})
     
   }
   handleScroll = (event) => {
@@ -49,7 +49,7 @@ export default class NewsFeed extends React.Component {
     const scrollViewHeight = event.nativeEvent.layoutMeasurement.height
     this.scrollIndicator.measure((fx, fy, width, height, px, py) => {
 
-        if((py - scrollViewHeight - height) <= 0 && !this.state.reachedIndicator) {
+        if((py - scrollViewHeight - height - 50 /* marginBottom */) <= 0 && !this.state.reachedIndicator) {
           console.log(true);
           this.setState({reachedIndicator: true})
           this.loadMorePosts()
@@ -60,7 +60,7 @@ export default class NewsFeed extends React.Component {
   render () {
     const { searchText } = this.state
     return (
-      <View style={styles.container} bounces alwaysBounceVertical>
+      <View style={styles.container}>
         <StatusBar
           backgroundColor="#F7F7F7"
           barStyle="dark-content"
@@ -83,7 +83,8 @@ export default class NewsFeed extends React.Component {
             </Button>
           </View>
         </Header>
-        <KeyboardAwareScrollView onScroll={this.handleScroll} style={{ paddingTop: 35, paddingBottom: 200}} extraScrollHeight	={150} enableOnAndroid>
+        <KeyboardAwareScrollView bounces alwaysBounceVertical onScroll={this.handleScroll}
+         style={{ paddingTop: 35, paddingBottom: 200}} extraScrollHeight={150} enableOnAndroid >
           <H3 style={[cstyles.h3, {color: "#935CAE", fontSize: 22,paddingLeft: 15}]}>Explore El Mawkaa</H3>
           <Carrousel/>
           <H3 style={[cstyles.h3, {color: "#935CAE", fontSize: 22, paddingLeft: 15}]}>Explore People</H3>
@@ -91,8 +92,8 @@ export default class NewsFeed extends React.Component {
           <PostsList/>
           <View style={styles.scrollIndicator} ref={ref => this.scrollIndicator = ref} ></View>
         </KeyboardAwareScrollView>
-        <Footer style={styles.footer} >
-          <FooterTab style={styles.footerTab}>
+        <Footer style={cstyles.footer} >
+          <FooterTab style={cstyles.footerTab}>
             <Button vertical>
               <FontAwesome name="newspaper-o" size={30} color="#484848" />
               <Text>Feeds</Text>

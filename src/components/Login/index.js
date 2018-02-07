@@ -23,6 +23,7 @@ import FontAwesome from "react-native-vector-icons/FontAwesome"
 
 import CheckBox from './CheckBox'; // checkbox component
 import Header from "../Header/index"  // Header Component
+import Divider from "../common/Divider"  // Header Component
 
 import styles from "./style"  // Component Styles
 import cstyles from "../common/style"

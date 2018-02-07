@@ -1,6 +1,10 @@
 import { StyleSheet, Dimensions } from "react-native"
 
 export default StyleSheet.create({
+  container: {
+    flex: 1,
+    width: Dimensions.get("window").width,
+  },
   content: {
     paddingHorizontal: 16,
     paddingVertical: 32
@@ -95,5 +99,21 @@ export default StyleSheet.create({
   center: {
     justifyContent: "center", 
     alignItems: "center"
-  }
+  },
+  noBorder: {
+    borderWidth: 0
+  },
+  transBorder: {
+    borderColor: "transparent"
+  },
+  footer: {
+    borderTopWidth: 1,
+    borderTopColor: "#ABABAB",
+    height: 60
+  },
+  footerTab: {
+    backgroundColor: "#F7F7F7",
+    paddingTop: 5
+
+  },
 })
