@@ -1,11 +1,22 @@
 import React from 'react';
 import { View,Text,Image } from 'react-native';
+import StarRating from './StarRating';
 
 const CategoryCard = (props) => {
 	return (
 		<View style={styles.containerStyle}>
 			<Image style={styles.image} source={props.icon} ></Image>
 			<Text style={styles.textStyle} >{props.headerText}</Text>
+			<StarRating
+				maxStars={5}
+			    rating={props.ratingStars}
+			    starSize={10}
+			    selectStar={require('mawkaaTest/images/select_star.png')}
+			    unSelectStar={require('mawkaaTest/images/unselect_star.png')}
+			    valueChanged={this._valueChanged}
+
+			    />
+			
 		</View>
 
 		);

@@ -31,6 +31,7 @@ import { StackNavigator } from 'react-navigation';
 import AfterSignupScreen from "./src/AfterSignup";
 import ProfilesScreen from "./src/Profiles";
 import CategoryProsScreen from './src/CategoryPros';
+import VisitedProfileProjectsScreen from './src/VisitedProfileProjects';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducers from './src/reducers';
@@ -47,6 +48,7 @@ const App = () => (
       <Scene key="register" component={FirstScreen} title="New Account"/>
       <Scene key="home" component={AfterSignupScreen} title="AfterSignupScreen"/>
       <Scene key="profiles" component={ProfilesScreen} title="Profiles"/>
+      <Scene key="VisitedProfileProjects" component={VisitedProfileProjectsScreen} title="VisitedProfileProjects"/>
       <Scene key="CategoryProsScreen" component={CategoryProsScreen} title="CategoryProsScreen"/>
     </Stack>
   </Router>

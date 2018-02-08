@@ -2,8 +2,9 @@ import React,{ Component } from 'react';
 import {  Text,
   TouchableWithoutFeedback,
   View,
-  LayoutAnimation,TouchableHighlight } from 'react-native';
+  LayoutAnimation,TouchableOpacity,TouchableHighlight } from 'react-native';
 import { connect } from 'react-redux';
+import { Actions,Router,Stack,Scene,PARAMS } from 'react-native-router-flux';
 import StarRating from 'mawkaaTest/src/components/common/StarRating';
 import { Button,Card,Header,CategoryCard,CardSection,ContactCard,Input,Spinner,
   Checkbox } from '../components/common';
@@ -14,36 +15,9 @@ class ListItem extends Component{
     LayoutAnimation.spring();
   }
   renderDescription() {
-    const { tag, expanded } = this.props;
-    if (expanded) {
-      return (
-        <CardSection>
-          <View style={{ flexDirection: 'row',}}>
-            <TouchableHighlight style={{ flex: 1 }}>
-              <Text>{tag.interest1name}</Text>
-            </TouchableHighlight>
-            <TouchableHighlight style={{ flex: 1 }}>
-              <Text>{tag.interest2name}</Text>
-            </TouchableHighlight>
-
-            </View>
-            <View style={{ flexDirection: 'row',}}>
-            <TouchableHighlight style={{ flex: 1 }}>
-              <Text>{tag.interest1name}</Text>
-            </TouchableHighlight>
-            <TouchableHighlight style={{ flex: 1 }}>
-              <Text>{tag.interest2name}</Text>
-            </TouchableHighlight>
-
-          </View>
-
-
-          
-
-
-        </CardSection>
-      );
-    }
+    //const { tag, expanded } = this.props;
+    
+    
   }
 
 	render() {
@@ -51,8 +25,8 @@ class ListItem extends Component{
     const { id, title,ratings,subTitle,reviews,address } = this.props.tag;
 
     return (
-      <TouchableWithoutFeedback
-        onPress={() => this.props.selectTag(id)}
+      <TouchableOpacity
+        onPress={() => this.props.selectTag(id),() => Actions.VisitedProfileProjects(PARAMS)}
       >
         <View>
           <ContactCard title={title} 
@@ -60,7 +34,7 @@ class ListItem extends Component{
           subTitle={subTitle}
           reviews={reviews}
           address={address}
-
+          
            icon={require('mawkaaTest/images/purpleBackground.png')}>
              
             <Text style={titleStyle}>
@@ -69,8 +43,9 @@ class ListItem extends Component{
            
           </ContactCard>
           
+          
         </View>
-      </TouchableWithoutFeedback>
+      </TouchableOpacity>
     );
   }
 }
