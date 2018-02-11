@@ -75,7 +75,7 @@ export default class TakeTourScreen extends React.Component {
         </TouchableHighlight>
         <TouchableHighlight
           style={styles.SignupButton}
-          onPress={() => Actions.VisitedProfileProjects(PARAMS)}
+          onPress={() => Actions.References(PARAMS)}
           underlayColor='#fff'>
           <Text style={styles.signupButtonText}>Sign up</Text>
         </TouchableHighlight>

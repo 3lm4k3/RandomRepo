@@ -142,6 +142,16 @@ export default class VisitedProfileProjectsScreen extends React.Component {
 
 			<LinearGradient colors={['#5871B5', '#935CAE']} style={linearGradient}>
 				<ScrollView>
+					<TouchableOpacity
+            
+            style={styles.back}
+
+            onPress={() => Actions.pop()}
+          > 
+          <Image
+               source={require('mawkaaTest/images/prices.png')}
+            ></Image>
+          </TouchableOpacity>
 					<View style={intro}>
 						<View>
 							<Text style={userName}>Ebrahim Anwar</Text>
@@ -216,7 +226,7 @@ export default class VisitedProfileProjectsScreen extends React.Component {
 			        	<Tab heading="Projects" style={{ backgroundColor:'transparent'}}>
 			        		<View style={{ flexDirection:'row'}}>
 						        <FlatList
-						        
+						        	
 						          data={[
 						            {key:1,projName: 'new',seenNum:22,ratingStars:3},
 						            {key:2,projName: 'Jackson',seenNum:10,ratingStars:2},
@@ -281,6 +291,9 @@ const styles = {
 	linearGradient:{
 		flex:1,
 	    
+	},
+	back:{
+		marginTop:20,
 	},
 	addressPointsTitle:{
 		fontWeight:'bold',
