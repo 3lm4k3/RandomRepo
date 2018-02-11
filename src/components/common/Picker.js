@@ -63,9 +63,14 @@ export default class PickerComponent extends React.Component {
       { open && <View style={[styles.dropMenu]} >
         {
           list.map((el, index) => (
-              <Ripple key={index} rippleColor="#935CAE" rippleDuration={1000} 
-                rippleContainerBorderRadius={23} style={styles.menuItem} onPress={() => this.handleSelection(index)} >
+              <Ripple key={index} rippleColor="#fff" rippleDuration={1000} style={styles.menuItem}
+                rippleContainerBorderRadius={23}  onPress={() => this.handleSelection(index)} >
+                <LinearGradient colors={['#5871B5', '#935CAE']} style={{width: 140,  
+                padding: 10,}}
+                start={{x: 0.0, y: 0.90}} end={{x: 0.90, y: 1.0}}>
                 <Text data-key={el.key} style={styles.menuItemText} >{el.text}</Text>
+                  
+                </LinearGradient>
               </Ripple>
           ))
         }
@@ -82,7 +87,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   indicator: {
-    width: 165,
+    width: 150,
     padding: 10,
     borderWidth: 2,
     borderColor: '#935CAE',
@@ -93,7 +98,7 @@ const styles = StyleSheet.create({
     fontSize: 16, 
   },
   dropMenu: {
-    width: 165,
+    width: 150,
     marginVertical: 5,
     position: "absolute",
     top: 50,
@@ -102,16 +107,14 @@ const styles = StyleSheet.create({
   },
   menuItem: {
     borderRadius: 23,
-    backgroundColor: "#fff",
-    width: 165,  
-    padding: 10,
-    marginVertical: 5,
+    width: 140,  
+    margin: 5,
     overflow: "hidden",
-    borderBottomWidth: 3,
-    borderBottomColor: "lightgray"
+    elevation: 5,
+    
   },
   menuItemText: {
-    color: "#935CAE",
+    color: "#fff",
     textAlign: "center",
     fontSize: 16,
     fontWeight: "bold",

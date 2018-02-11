@@ -34,14 +34,8 @@ export default StyleSheet.create({
     alignItems: "center",
     marginVertical: 10,
     height: 50,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
-    elevation: 1
+    flexDirection: "row", 
+    elevation: 3
   },
   loginOptionText: {
     fontSize: 16,
@@ -56,7 +50,6 @@ export default StyleSheet.create({
     paddingHorizontal: 25,
     flexDirection: "row",
     justifyContent: "space-between",
-    // backgroundColor: "red"
   },
   loginButton: {
     backgroundColor: "#FEE180",

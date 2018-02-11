@@ -1,9 +1,8 @@
 import React from "react"
-
 import {
   View,
-  Image,
-  StyleSheet
+  StyleSheet,
+  TouchableWithoutFeedback 
 } from "react-native"
 import { 
   Container, 
@@ -18,20 +17,25 @@ import {
   Body, 
   Right
 } from 'native-base';
+import { Actions } from "react-native-router-flux"
 import Icon from "react-native-vector-icons/Feather"
 import IonIcon from "react-native-vector-icons/Ionicons"
 
+
 import Divider from "../common/Divider"
 import Album from "../common/Album"
+import Image from "../common/Image"
 
 import cstyles from "../common/style"
+
+
 
 export default class Post extends React.Component {
   state = {
     liked: false,
     likes: 23,
     loaded: false,
-    bookmarked: false
+    bookmarked: false,
   }
   toggleBookmark = () => {
     this.setState(((prevState, props) => {
@@ -59,6 +63,9 @@ export default class Post extends React.Component {
   }
   handleShare = ( ) => {
 
+  }
+  handleImageClick = () => {
+    Actions.imageLightBox()
   }
   render() {
     const { row, headerText, black, bold } = cstyles
@@ -111,7 +118,9 @@ export default class Post extends React.Component {
           <CardItem cardBody style={styles.cardBody} >
             {
               album ? <Album/> :
-                <Image source={{uri: (!loaded ? "https://picsum.photos/200/300/?blur" : 'https://picsum.photos/200/300/?random') }} style={{height: 350, width: null, flex: 1}}/>
+                <View style={{flex: 1}}>
+                  <Image onPress={this.handleImageClick} source={{uri: (!loaded ? "https://picsum.photos/200/300/?blur" : 'https://picsum.photos/200/300/?random') }} style={{height: 350, width: null, flex: 1}}/>
+              </View>
             }
           </CardItem>
           <Divider color="#95989A" />
@@ -137,6 +146,7 @@ export default class Post extends React.Component {
           </View>
           
         </View>
+        
       </View>
     )
   }

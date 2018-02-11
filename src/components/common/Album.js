@@ -3,11 +3,12 @@ import React from "react"
 import {
   View,
   StyleSheet,
-  Image,
   Text
 } from "react-native"
+
+import Image from "./Image";
+
 import cstyles from "../common/style"
-import {mapPropsToStyleNames} from 'native-base';
 
 export default class Album extends React.Component {
   render() {
@@ -61,15 +62,12 @@ const styles = StyleSheet.create({
   lowerSection: {
     flexDirection: 'row',
     flex: 2,
-    backgroundColor: 'red'
   },
   lowerSectionImage: {
     flex: 1,
-    backgroundColor: "cyan"
   },
   upperSection: {
     flex: 4,
-    backgroundColor: "green"
   },
   overlay: {
     position: "absolute",

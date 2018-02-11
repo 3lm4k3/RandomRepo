@@ -52,8 +52,9 @@
 		7763F772F43E4D54A15584AB /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BEBA19C332435DBDF03389 /* libRNVectorIcons.a */; };
 		9A9164179B2441709B52A649 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CFBA0B0B7004247909FC58D /* Feather.ttf */; };
 		04422359C08B497584F0C5E7 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1B5346D3B5D4ECD9E5374F8 /* MaterialCommunityIcons.ttf */; };
-		2D4698B401FB43A09347612C /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DAD41CACB4B6EB236DE18 /* libRNSVG-tvOS.a */; };
 		3AC8FB63972F444F8ABD155F /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96D50619714F68A40E29AB /* libBVLinearGradient.a */; };
+		B29D8054ECA54FC6BDD12EBB /* libAutoGrowTextInput.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F4709C26F1415DB3A5C15F /* libAutoGrowTextInput.a */; };
+		A70AD77BCE5142CC940A0631 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F2A9B813949329839276B /* libRNImagePicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,9 +322,12 @@
 		86BEBA19C332435DBDF03389 /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		6CFBA0B0B7004247909FC58D /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F1B5346D3B5D4ECD9E5374F8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E79DAD41CACB4B6EB236DE18 /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; name = "libRNSVG-tvOS.a"; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		2CE0C0B37178471E9E05027A /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		CE96D50619714F68A40E29AB /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		667B63420B7B439E96FC5670 /* AutoGrowTextInput.xcodeproj */ = {isa = PBXFileReference; name = "AutoGrowTextInput.xcodeproj"; path = "../node_modules/react-native-autogrow-textinput/ios/AutoGrowTextInput.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		68F4709C26F1415DB3A5C15F /* libAutoGrowTextInput.a */ = {isa = PBXFileReference; name = "libAutoGrowTextInput.a"; path = "libAutoGrowTextInput.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		8CFAA5463A644C3ABDB83918 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; name = "RNImagePicker.xcodeproj"; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D97F2A9B813949329839276B /* libRNImagePicker.a */ = {isa = PBXFileReference; name = "libRNImagePicker.a"; path = "libRNImagePicker.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,8 +358,9 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				0B8F4C5669F0482D8CE962F2 /* libLottieReactNative.a in Frameworks */,
 				7763F772F43E4D54A15584AB /* libRNVectorIcons.a in Frameworks */,
-				2D4698B401FB43A09347612C /* libRNSVG-tvOS.a in Frameworks */,
 				3AC8FB63972F444F8ABD155F /* libBVLinearGradient.a in Frameworks */,
+				B29D8054ECA54FC6BDD12EBB /* libAutoGrowTextInput.a in Frameworks */,
+				A70AD77BCE5142CC940A0631 /* libRNImagePicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +541,8 @@
 				6BBA6CD728D34862930F21A5 /* LottieReactNative.xcodeproj */,
 				4EF429D0597948959855F0B6 /* RNVectorIcons.xcodeproj */,
 				2CE0C0B37178471E9E05027A /* BVLinearGradient.xcodeproj */,
+				667B63420B7B439E96FC5670 /* AutoGrowTextInput.xcodeproj */,
+				8CFAA5463A644C3ABDB83918 /* RNImagePicker.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1143,7 +1150,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myScreens.app/myScreens";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1151,6 +1157,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Debug;
@@ -1171,7 +1179,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myScreens.app/myScreens";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1179,6 +1186,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Release;
@@ -1204,6 +1213,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Debug;
@@ -1228,6 +1239,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Release;
@@ -1257,7 +1270,6 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1265,6 +1277,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Debug;
@@ -1294,7 +1308,6 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1302,6 +1315,8 @@
 					"$(SRCROOT)\..\node_modules\lottie-react-native\lib\ios\LottieReactNative",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-autogrow-textinput\ios",
+					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
 				);
 			};
 			name = Release;
@@ -1326,7 +1341,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1351,7 +1365,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;

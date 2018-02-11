@@ -137,9 +137,10 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-image-picker')
+    compile project(':react-native-autogrow-textinput')
     compile project(':react-native-linear-gradient')
     compile project(':react-native-vector-icons')
-    compile project(':lottie-react-native')
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:26.0.1'
     compile 'com.facebook.react:react-native:+'

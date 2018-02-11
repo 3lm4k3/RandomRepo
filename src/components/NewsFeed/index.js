@@ -37,12 +37,19 @@ export default class NewsFeed extends React.Component {
   state = {
     searchText: "",
     loadMore: false,
-    reachedIndicator: false
+    reachedIndicator: false,
+    showImageModal: false
+
   }
   loadMorePosts = () => {
     // After Loading
     // this.setState({reachedIndicator: false})
     
+  }
+  handleImageClick = () => {
+    this.setState({
+      showImageModal: true
+    })
   }
   handleScroll = (event) => {
     const pageYOffset = (event.nativeEvent.contentOffset.y)
@@ -58,10 +65,11 @@ export default class NewsFeed extends React.Component {
     })
   }
   render () {
-    const { searchText } = this.state
+    const { searchText, showImageModal } = this.state
     return (
       <View style={styles.container}>
         <StatusBar
+          hidden={ showImageModal }
           backgroundColor="#F7F7F7"
           barStyle="dark-content"
         />
@@ -84,7 +92,8 @@ export default class NewsFeed extends React.Component {
           </View>
         </Header>
         <KeyboardAwareScrollView bounces alwaysBounceVertical onScroll={this.handleScroll}
-         style={{ paddingTop: 35, paddingBottom: 200}} extraScrollHeight={150} enableOnAndroid >
+          showsVerticalScrollIndicator={false}
+          style={{ paddingTop: 35, paddingBottom: 200}} extraScrollHeight={150} enableOnAndroid >
           <H3 style={[cstyles.h3, {color: "#935CAE", fontSize: 22,paddingLeft: 15}]}>Explore El Mawkaa</H3>
           <Carrousel/>
           <H3 style={[cstyles.h3, {color: "#935CAE", fontSize: 22, paddingLeft: 15}]}>Explore People</H3>
@@ -92,7 +101,8 @@ export default class NewsFeed extends React.Component {
           <PostsList/>
           <View style={styles.scrollIndicator} ref={ref => this.scrollIndicator = ref} ></View>
         </KeyboardAwareScrollView>
-        <Footer style={cstyles.footer} >
+        { !showImageModal &&
+          <Footer style={cstyles.footer} >
           <FooterTab style={cstyles.footerTab}>
             <Button vertical>
               <FontAwesome name="newspaper-o" size={30} color="#484848" />
@@ -116,6 +126,12 @@ export default class NewsFeed extends React.Component {
             </Button>
             </FooterTab>
         </Footer>
+        }
+        {
+          showImageModal &&
+          <ImagePreview isVisible={showImageModal} 
+          onClose={() => this.setState({showImageModal: false})} />
+        }
       </View>
     )
   }

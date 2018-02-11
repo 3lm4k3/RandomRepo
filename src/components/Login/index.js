@@ -13,15 +13,14 @@ import {
   Item,
   Input,
   Content,
-  
 } from "native-base"
 import LinearGradient from 'react-native-linear-gradient'; // Linear background component
 import { Actions } from 'react-native-router-flux';
-// import CheckBox from 'react-native-checkbox'; // checkbox component
+import CheckBox from 'react-native-checkbox'; // checkbox component
 import Icon from "react-native-vector-icons/Feather"
 import FontAwesome from "react-native-vector-icons/FontAwesome"
+import Ripple from "react-native-material-ripple"
 
-import CheckBox from './CheckBox'; // checkbox component
 import Header from "../Header/index"  // Header Component
 import Divider from "../common/Divider"  // Header Component
 
@@ -35,10 +34,6 @@ export default class Login extends React.Component {
     secureEntry: true,
     passwordText: ""
   }
-  componentDidMount() {
-    this.window = Dimensions.get("window")
-    
-  }
   render() {
     const { state } = this
     return (
@@ -50,20 +45,20 @@ export default class Login extends React.Component {
           <Header />
           <Content>
             <View style={styles.loginOptions}>
-                <Button onPress={() => {}} style={styles.loginOption}>
-                    <Text style={styles.loginOptionText}>Connect with </Text>
-                    <FontAwesome name="facebook-official" color={"#26559A"} style={cstyles.Icon}/>
-                    <Text style={styles.loginOptionText} > Facebook</Text>  
-                  </Button>
-                  <Button onPress={() => {}} style={styles.loginOption}>
-                    <Text style={styles.loginOptionText}>Connect with</Text>
-                    <Text style={[styles.loginOptionText, cstyles.black]} > Linked </Text>  
-                    <FontAwesome name="linkedin-square" color={"#006699"} style={cstyles.Icon}/>           
-                  </Button>
-                  <Button onPress={() => {}} style={styles.loginOption}>
-                    <Text style={styles.loginOptionText}>Connect with</Text>
-                    <Image source={ require("../../assets/images/google.png") } style={cstyles.buttonImage} />
-                  </Button>
+              <Ripple rippleColor="#935CAE" rippleContentBorderRadius={23} onPress={() => {}} style={styles.loginOption}>
+                <Text style={styles.loginOptionText}>Connect with </Text>
+                <FontAwesome name="facebook-official" color={"#26559A"} style={cstyles.Icon}/>
+                <Text style={styles.loginOptionText} > Facebook</Text>  
+              </Ripple>
+              <Ripple rippleColor="#935CAE" rippleContentBorderRadius={23} onPress={() => {}} style={styles.loginOption}>
+                <Text style={styles.loginOptionText}>Connect with</Text>
+                <Text style={[styles.loginOptionText, cstyles.black]} > Linked </Text>  
+                <FontAwesome name="linkedin-square" color={"#006699"} style={cstyles.Icon}/>           
+              </Ripple>
+              <Ripple rippleColor="#935CAE" rippleContentBorderRadius={23} onPress={() => {}} style={styles.loginOption}>
+                <Text style={styles.loginOptionText}>Connect with</Text>
+                <Image source={ require("../../assets/images/google.png") } style={cstyles.buttonImage} />
+              </Ripple>
               </View>
               <Divider/>
               <Form style={styles.loginForm}>
@@ -89,7 +84,7 @@ export default class Login extends React.Component {
               </Form>
               <View style={styles.controller}>
                 <View style={{paddingVertical: 10}}>
-                <CheckBox
+                {/* <CheckBox
                     label=' Remember me'
                     labelStyle={cstyles.white}
                     color="#fff"
@@ -97,7 +92,7 @@ export default class Login extends React.Component {
                     checked={this.state.checkBox}
                     underlayColor = {"#8E5EAF"}
                     onChange={(checked) => this.setState({checkBox: !this.state.checkBox})}
-                  />
+                  /> */}
                 </View>
                 <Button transparent><Text style={[cstyles.underlined, cstyles.white]}>Forgot my password</Text></Button>
               </View>
@@ -109,6 +104,7 @@ export default class Login extends React.Component {
               <Button style={styles.loginButton} onPress={() => Actions.newsfeed()}>
                 <Text style={styles.loginButtonText}>Login</Text>
               </Button>
+              
           </Content>
         </LinearGradient>
     );
