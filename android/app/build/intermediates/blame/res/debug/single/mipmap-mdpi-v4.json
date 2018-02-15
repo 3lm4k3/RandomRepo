@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens - Copy\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "C:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens - Copy\\node_modules\\react-native-autogrow-textinput\\android\\build\\intermediates\\bundles\\default\\res\\mipmap-mdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "C:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\node_modules\\react-native-autogrow-textinput\\android\\build\\intermediates\\bundles\\default\\res\\mipmap-mdpi-v4\\ic_launcher_round.png"
+    }
+]
