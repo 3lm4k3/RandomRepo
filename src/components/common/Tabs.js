@@ -8,7 +8,7 @@ import {
 export default ({ children, transparent }) => {
   const styles = StyleSheet.create({
     tabUnderline: {
-      backgroundColor: transparent ? "transparent" : "#5871B5",
+      backgroundColor: transparent ? "#FEE180" : "#5871B5",
       height: 3,
     },
     textStyle: {
@@ -31,7 +31,8 @@ export default ({ children, transparent }) => {
       height: 5,
       width: Dimensions.get("window").width,
       position: "absolute",
-      top: 50
+      top: 50,
+      opacity: transparent && 0,
     },
     tabSeparator: {
       height: 30,
