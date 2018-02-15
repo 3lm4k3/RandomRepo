@@ -5,8 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/myScreens.iml" filepath="$PROJECT_DIR$/myScreens.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-autogrow-textinput/android/react-native-autogrow-textinput.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-autogrow-textinput/android/react-native-autogrow-textinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-autogrow-textinput/android/react-native-autogrow-textinput.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-autogrow-textinput/android/react-native-autogrow-textinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-nested-scroll-view/android/react-native-nested-scroll-view.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-nested-scroll-view/android/react-native-nested-scroll-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-nested-scroll-view/android/react-native-nested-scroll-view.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-nested-scroll-view/android/react-native-nested-scroll-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
     </modules>
   </component>

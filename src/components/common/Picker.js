@@ -48,7 +48,6 @@ export default class PickerComponent extends React.Component {
     const { list, open, selectedItem } = this.state
     const { filled } = this.props
     return (
-      
       <View>
         <LinearGradient style={[styles.container]} 
           start={{x: 0.0, y: 0.90}} end={{x: 0.90, y: 1.0}}
@@ -82,7 +81,7 @@ export default class PickerComponent extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    width: 165,
+    width: 150,
     borderRadius: 5 ,
     overflow: 'hidden',
   },

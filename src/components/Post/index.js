@@ -18,6 +18,7 @@ import {
   Right
 } from 'native-base';
 import { Actions } from "react-native-router-flux"
+import ReadMore from "react-native-read-more-text"
 import Icon from "react-native-vector-icons/Feather"
 import IonIcon from "react-native-vector-icons/Ionicons"
 
@@ -47,12 +48,12 @@ export default class Post extends React.Component {
     if(liked) {
       this.setState(state => ({
         liked: false,
-        likes: state.likes--
+        likes: state.likes - 1
       }))
     }else {
       this.setState(state => ({
         liked: true,
-        likes: state.likes++
+        likes: state.likes + 1
       }))
     }
     
@@ -67,6 +68,14 @@ export default class Post extends React.Component {
   handleImageClick = () => {
     Actions.imageLightBox()
   }
+  _renderTruncatedFooter = (handlePress) => {
+    return (
+      <Text style={{color: "#484848", marginTop: 5}} onPress={() => {}}>
+        Read more
+      </Text>
+    );
+  }
+
   render() {
     const { row, headerText, black, bold } = cstyles
     const { selling, sponsored, album } = this.props
@@ -109,9 +118,14 @@ export default class Post extends React.Component {
                 <Text style={[styles.price, bold]}>30,000 EGP</Text>
               </View>
             }
-            <Text style ={{color : "#95989A"}}>
-              Elit culpa reprehenderit ad ullamco voluptate anim ipsum nostrud eiusmod ullamco.
-            </Text>
+            <ReadMore
+              numberOfLines={3}
+              renderTruncatedFooter={this._renderTruncatedFooter}>
+              <Text style ={{color : "#95989A"}}>
+                Elit culpa reprehenderit ad ullamco voluptate anim ipsum nostrud eiusmod ullamco.
+                Elit culpa reprehenderit ad ullamco voluptate anim ipsum nostrud eiusmod ullamco.
+              </Text>
+            </ReadMore>
           </View>
           
           </CardItem>

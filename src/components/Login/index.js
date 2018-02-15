@@ -24,7 +24,7 @@ import Ripple from "react-native-material-ripple"
 import Header from "../Header/index"  // Header Component
 import Divider from "../common/Divider"  // Header Component
 
-import styles from "./style"  // Component Styles
+import styles from "./styles"  // Component Styles
 import cstyles from "../common/style"
 
 
@@ -84,15 +84,17 @@ export default class Login extends React.Component {
               </Form>
               <View style={styles.controller}>
                 <View style={{paddingVertical: 10}}>
-                {/* <CheckBox
+                <CheckBox
                     label=' Remember me'
                     labelStyle={cstyles.white}
                     color="#fff"
                     checkboxStyle={ cstyles.checkbox }
                     checked={this.state.checkBox}
+                    checkedImage={require("../../assets/images/checkbox_checked.png")}
+                    uncheckedImage={require("../../assets/images/checkbox_unchecked.png")}
                     underlayColor = {"#8E5EAF"}
                     onChange={(checked) => this.setState({checkBox: !this.state.checkBox})}
-                  /> */}
+                  />
                 </View>
                 <Button transparent><Text style={[cstyles.underlined, cstyles.white]}>Forgot my password</Text></Button>
               </View>

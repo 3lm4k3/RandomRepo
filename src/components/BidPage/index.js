@@ -79,7 +79,7 @@ export default class BidPage extends React.Component {
           )}>
           
           <View style={styles.content}>
-            <Bid/>
+            <Bid seemore/>
             <View style={styles.skillsContainer} >
               <Text style={styles.subTitle} >Skills Required</Text>
               <View style={[cstyles.row, {flexWrap: "wrap"}]} >

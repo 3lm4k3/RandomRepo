@@ -30,7 +30,7 @@ import PostsList from "../PostsList//index"
 import SearchBar from "../common/HeaderSearchBar"
 import Carrousel from "../common/Carrousel"
 
-import styles from "./style"
+import styles from "./styles"
 import cstyles from "../common/style"
 
 export default class NewsFeed extends React.Component {
@@ -116,7 +116,7 @@ export default class NewsFeed extends React.Component {
               <LineIcon name="tag" size={30} color="#484848"  />
               <Text>Market</Text>
             </Button>
-            <Button vertical>
+            <Button vertical onPress={()=> Actions.bids()}>
               <Icon name="x" size={30} color="#484848" />              
               <Text>Bids</Text>
             </Button>

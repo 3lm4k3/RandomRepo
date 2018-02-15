@@ -7,6 +7,7 @@ import {
 import Icon from "react-native-vector-icons/Feather"
 import Ripple from "react-native-material-ripple"
 import { Actions } from "react-native-router-flux"
+import ReadMore from "react-native-read-more-text"
 
 import Divider from "../common/Divider";
 
@@ -19,11 +20,36 @@ export default class Bid extends React.Component {
   handleBidClick = () => {
     Actions.bid()
   }
+  _renderTruncatedFooter = (handlePress) => {
+    return this.props.seemore && (
+      <Text style={{color: "#484848", marginTop: 5}} onPress={handlePress}>
+        Read more
+      </Text>
+    );
+  }
+
+  _renderRevealedFooter = (handlePress) => {
+    return  this.props.seemore && (
+      <Text style={{color: "#484848", marginTop: 5}} onPress={handlePress}>
+        Show less
+      </Text>
+    );
+  }
   render() {
     return (
       <View style={styles.container} >
         <Text style={[cstyles.h3, styles.bidTitle]} onPress={this.handleBidClick} >Bid Title Goes here</Text>
-        <Text style={styles.bidText} >Dolor aliqua non labore do nostrud reprehenderit adipisicing magna enim officia culpa Lorem.</Text>
+        <ReadMore
+          numberOfLines={3}
+          renderTruncatedFooter={this._renderTruncatedFooter}
+          renderRevealedFooter={this._renderRevealedFooter}
+          onReady={this._handleTextReady}>
+          <Text numberOfLines={3} style={styles.bidText} >
+            Dolor aliqua non labore do nostrud reprehenderit adipisicing magna enim officia culpa Lorem.
+            Dolor aliqua non labore do nostrud reprehenderit adipisicing magna enim officia culpa Lorem.
+            Dolor aliqua non labore do nostrud reprehenderit adipisicing magna enim officia culpa Lorem.
+          </Text>
+        </ReadMore>
         <Divider/>
         <Text style={[cstyles.underlined, styles.address]} >
           Address goes here, Cairo, Egypt.
@@ -48,7 +74,7 @@ export default class Bid extends React.Component {
 }
 
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     marginVertical: 10,
     paddingHorizontal: 10
@@ -62,7 +88,7 @@ const styles = StyleSheet.create({
   },
   bidText: {
     fontSize: 18,
-    marginVertical: 5
+    marginVertical: 5,
   },
   action: {
     flex: 1,
