@@ -1,7 +1,6 @@
 import React from "react"
 import {
   View, 
-  StyleSheet,
   Text,
   StatusBar,
   Dimensions,
@@ -22,7 +21,7 @@ import Carousel from 'react-native-snap-carousel';
 
 import Header from "../Header/index"
 import SearchBar from "../common/HeaderSearchBar"
-import DropdownSubNavBar from "../common/DropdownSubNavBar"
+import DropdownSubNavBar from "../common/SubNavBar"
 import Picker from "../common/Picker"
 
 import styles from "./styles"

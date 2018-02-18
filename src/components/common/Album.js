@@ -12,27 +12,26 @@ import cstyles from "../common/style"
 
 export default class Album extends React.Component {
   render() {
-    // const { imagesList } = this.props
     const { bold, white, center} = cstyles
     const imagesList = [1,2,3,4,5,6,7,8,9]
-    const { imageWrapper, firstImage, lastImage } = styles
+    const { firstImage, lastImage } = styles
     return(
       <View style={styles.container} >
         <View style={styles.upperSection} >
-          <Image source={{uri: "https://picsum.photos/200/300/?random" }} style={{width: null, flex: 1}}/>
+          <Image source={{uri: "https://picsum.photos/200/300/?random" }} style={[firstImage, {width: null, flex: 1}]}/>
         </View>
         <View style={styles.lowerSection} >
           {
             imagesList.slice(1).slice(0,2).map((el, index) => {
               return (
                 <View style={styles.lowerSectionImage} key={index} >
-                  <Image source={{uri: "https://picsum.photos/200/300/?image=" + index }} style={{width: null, flex: 1}}/>            
+                  <Image source={{uri: "https://picsum.photos/200/300/?image=" + index }} style={{width: null, flex: 1}}/>
                 </View>
               )
             })
           }
           <View style={styles.lowerSectionImage}>
-            <Image source={{uri: "https://picsum.photos/200/300/?random" }} style={{width: null, flex: 1}}/>            
+            <Image source={{uri: "https://picsum.photos/200/300/?random" }} style={[lastImage, {width: null, flex: 1}]}/>
             <View style={[styles.overlay, center]}>
               <Text style={[white, bold, {fontSize: 28, zIndex: 2}]} >
                 +6
@@ -54,10 +53,10 @@ const styles = StyleSheet.create({
     flex: 1
   },
   firstImage: {
-
+    marginLeft: 0
   },
   lastImage: {
-
+    marginRight: 0
   },
   lowerSection: {
     flexDirection: 'row',
@@ -65,9 +64,12 @@ const styles = StyleSheet.create({
   },
   lowerSectionImage: {
     flex: 1,
+    margin: 2
   },
   upperSection: {
     flex: 4,
+    overflow: "hidden",
+    backgroundColor: "transparent"
   },
   overlay: {
     position: "absolute",

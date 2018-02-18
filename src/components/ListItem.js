@@ -1,13 +1,12 @@
 import React,{ Component } from 'react';
-import {  Text,
-  TouchableWithoutFeedback,
+import {
+  Text,
   View,
-  LayoutAnimation,TouchableOpacity,TouchableHighlight } from 'react-native';
+  LayoutAnimation,TouchableOpacity,
+} from 'react-native';
 import { connect } from 'react-redux';
-import { Actions,Router,Stack,Scene,PARAMS } from 'react-native-router-flux';
-import StarRating from './common/StarRating';
-import { Button,Card,Header,CategoryCard,CardSection,ContactCard,Input,Spinner,
-  Checkbox } from './common';
+import { Actions, PARAMS } from 'react-native-router-flux';
+import { ContactCard } from './common';
 
 import * as actions from '../actions';
 class ListItem extends Component{
@@ -26,7 +25,10 @@ class ListItem extends Component{
 
     return (
       <TouchableOpacity
-        onPress={() => this.props.selectTag(id),() => Actions.VisitedProfileProjects(PARAMS)}
+        onPress={() => {
+          this.props.selectTag(id)
+          Actions.VisitedProfileProjects(PARAMS)
+        }}
       >
         <View>
           <ContactCard title={title} 
@@ -34,8 +36,7 @@ class ListItem extends Component{
           subTitle={subTitle}
           reviews={reviews}
           address={address}
-          
-           icon={require('../assets/images/purpleBackground.png')}>
+          icon={require('../assets/images/purpleBackground.png')}>
              
             <Text style={titleStyle}>
               {title}

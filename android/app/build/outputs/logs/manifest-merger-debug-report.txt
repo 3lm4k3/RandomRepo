@@ -1,6 +1,40 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:react-native-nested-scroll-view] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-nested-scroll-view\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-autogrow-textinput] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-autogrow-textinput\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-linear-gradient\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\f5a2934034de50136cfbc694358885e5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c85ca293b87e4b5635b110246ae6a738\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\1092a4d6ac0a9423c4bcf6fe6a41d74a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\687dc4c5d2af847d57321a388add40d1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\093ba34dc9dc4b619774d7aaef9a83c3\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\15372e483f8584645f515e2498daf2f2\AndroidManifest.xml:1:1-3:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\576bbeede5697d6ea72b3b59aea99f9c\AndroidManifest.xml:17:1-26:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bef803329bf4955b375223f939309edf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\14942de37e527462e2223cb78c61b5ac\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\77bcc47934c05f1583c54c8f2e9ff5a7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d725ee9ebe80e83c1b0425d3dcfe3d33\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12
 	package
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:2:5-28
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
@@ -9,19 +43,20 @@ ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\s
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.android\build-cache\9a720f63f0f22c4edfbcf08f895b4ac6d8654d5e\output\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:7:22-75
 uses-permission#android.permission.CAMERA
@@ -34,35 +69,66 @@ ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\s
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:9:22-78
 uses-sdk
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:11:5-13:41
-MERGED from [myScreens:react-native-nested-scroll-view:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-nested-scroll-view\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.android\build-cache\6adc08c10f555db0d81bd63fd1bb1933a18a1560\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.android\build-cache\b8bce68fb295d01f72ea4b2de0603a7b9356606d\output\AndroidManifest.xml:20:5-44
-MERGED from [myScreens:react-native-svg:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-svg\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [myScreens:react-native-autogrow-textinput:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-autogrow-textinput\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [myScreens:react-native-linear-gradient:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-linear-gradient\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [myScreens:react-native-vector-icons:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-vector-icons\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.android\build-cache\9a720f63f0f22c4edfbcf08f895b4ac6d8654d5e\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.android\build-cache\769accc477daf9f2cde49ef9ae3d7ba5d90bc579\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.android\build-cache\f9a66d8fdb92325228316de384d82c53a7ffc311\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.android\build-cache\4ddc193565d0f85b312b6ea29538d53ddfd3133c\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.android\build-cache\ec79ff9672f2f72ea2f6646bec08de08920bac0d\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.android\build-cache\3fd015769f7666a86efd1d7cb404b8d50877f39f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\5695e495958fdefb8a0e05fd025cf0e52d85a834\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\cf4f466f365acac51d88b1d205c4982858df7c82\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.android\build-cache\b7bc4ee092ff6cf976dab9cd028378dbe507ecaa\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.android\build-cache\3e0242cb9818e50d418b8386ae47d97b27272cb9\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\bahaa\.android\build-cache\9b1082ae1ae2fed1160ca6889abc50e9c05d4c39\output\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\bahaa\.android\build-cache\87262c064a8ab7efedc5f95772823bfaa09f1f4b\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\bahaa\.android\build-cache\a6e08890450641e2e6d31017fbd42af5fde80039\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\bahaa\.android\build-cache\9e7cc727ae2dfc4b4bcfc1b341597246a38cebcf\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\bahaa\.android\build-cache\47375a670154d2d7c04d9f4c3ebfa3634d1d8d94\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\bahaa\.android\build-cache\87e352a5651e596a74afa1b5adff063e39635c59\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\bahaa\.android\build-cache\ea9760ad4b30fd8b394be38b7d3b84cad394fdd5\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.android\build-cache\489600cae3786c4f33be37df69dcdd2161f828cf\output\AndroidManifest.xml:2:3-70
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:11:5-13:41
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-nested-scroll-view] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-nested-scroll-view\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-nested-scroll-view] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-nested-scroll-view\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-autogrow-textinput] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-autogrow-textinput\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-autogrow-textinput] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-autogrow-textinput\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-linear-gradient\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-linear-gradient\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\f5a2934034de50136cfbc694358885e5\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\f5a2934034de50136cfbc694358885e5\AndroidManifest.xml:21:5-23:78
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c85ca293b87e4b5635b110246ae6a738\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\c85ca293b87e4b5635b110246ae6a738\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\1092a4d6ac0a9423c4bcf6fe6a41d74a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\1092a4d6ac0a9423c4bcf6fe6a41d74a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\687dc4c5d2af847d57321a388add40d1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\687dc4c5d2af847d57321a388add40d1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\093ba34dc9dc4b619774d7aaef9a83c3\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\093ba34dc9dc4b619774d7aaef9a83c3\AndroidManifest.xml:2:3-70
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\576bbeede5697d6ea72b3b59aea99f9c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\576bbeede5697d6ea72b3b59aea99f9c\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bef803329bf4955b375223f939309edf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bef803329bf4955b375223f939309edf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\14942de37e527462e2223cb78c61b5ac\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\14942de37e527462e2223cb78c61b5ac\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\77bcc47934c05f1583c54c8f2e9ff5a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\77bcc47934c05f1583c54c8f2e9ff5a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d725ee9ebe80e83c1b0425d3dcfe3d33\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d725ee9ebe80e83c1b0425d3dcfe3d33\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:11:5-13:41
+INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:11:5-13:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:13:9-38
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
@@ -73,27 +139,42 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.android\build
 		INJECTED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:15:5-32:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.android\build-cache\b8bce68fb295d01f72ea4b2de0603a7b9356606d\output\AndroidManifest.xml:26:5-20
-MERGED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.android\build-cache\9a720f63f0f22c4edfbcf08f895b4ac6d8654d5e\output\AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.android\build-cache\769accc477daf9f2cde49ef9ae3d7ba5d90bc579\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.android\build-cache\f9a66d8fdb92325228316de384d82c53a7ffc311\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.android\build-cache\4ddc193565d0f85b312b6ea29538d53ddfd3133c\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.android\build-cache\ec79ff9672f2f72ea2f6646bec08de08920bac0d\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.android\build-cache\3fd015769f7666a86efd1d7cb404b8d50877f39f\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\5695e495958fdefb8a0e05fd025cf0e52d85a834\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\cf4f466f365acac51d88b1d205c4982858df7c82\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.android\build-cache\b7bc4ee092ff6cf976dab9cd028378dbe507ecaa\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.android\build-cache\3e0242cb9818e50d418b8386ae47d97b27272cb9\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.android\build-cache\489600cae3786c4f33be37df69dcdd2161f828cf\output\AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\bahaa\.android\build-cache\ac3323aa6d03161e55ef5d321cff79037db989d2\output\AndroidManifest.xml:2:3-17
+MERGED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\9db0460e2747def7762ea21a7d1204b0\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\f5a2934034de50136cfbc694358885e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\f5a2934034de50136cfbc694358885e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\093ba34dc9dc4b619774d7aaef9a83c3\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\093ba34dc9dc4b619774d7aaef9a83c3\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\15372e483f8584645f515e2498daf2f2\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\15372e483f8584645f515e2498daf2f2\AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:18:7-39
-	android:allowBackup
-		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:17:7-33
 	android:icon
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:19:7-41
+	android:allowBackup
+		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:17:7-33
 	android:theme
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:20:7-38
 	android:name
@@ -122,38 +203,48 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:31:7-84
 	android:name
 		ADDED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:31:17-81
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.android\build-cache\6adc08c10f555db0d81bd63fd1bb1933a18a1560\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.android\build-cache\b8bce68fb295d01f72ea4b2de0603a7b9356606d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.android\build-cache\f9a66d8fdb92325228316de384d82c53a7ffc311\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.android\build-cache\4ddc193565d0f85b312b6ea29538d53ddfd3133c\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.android\build-cache\ec79ff9672f2f72ea2f6646bec08de08920bac0d\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.android\build-cache\3fd015769f7666a86efd1d7cb404b8d50877f39f\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\5695e495958fdefb8a0e05fd025cf0e52d85a834\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.android\build-cache\cf4f466f365acac51d88b1d205c4982858df7c82\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.android\build-cache\b7bc4ee092ff6cf976dab9cd028378dbe507ecaa\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.android\build-cache\3e0242cb9818e50d418b8386ae47d97b27272cb9\output\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.android\build-cache\9c514557479a8fc077c2bb37568cfa119e5c149d\output\AndroidManifest.xml:26:9-47
 provider#android.support.v4.content.FileProvider
-ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:12:9-20:20
-	android:authorities
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:14:13-60
+ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-60
 	android:exported
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:13:13-67
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:17:13-19:58
+ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-19:58
 	android:resource
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:19:17-55
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:17-55
 	android:name
-		ADDED from [myScreens:react-native-image-picker:unspecified] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\bundles\default\AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-image-picker] C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\a220e1ac82dc29434e9a93c6206578ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\63474fd650ebcdf321d1c0989d501dd7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\576bbeede5697d6ea72b3b59aea99f9c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\576bbeede5697d6ea72b3b59aea99f9c\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9959ee41f705ac33bb46e04e5e477d5b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\2bd49c2e81b9e4aeadc286fda1e2babe\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\76393e2e48177c4308376015fde00b5c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\806f044656b09eb53f054cda77f4d30c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9d87b0d81ff1b2f7768ae77c8c9e870d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\82e48a13c385a827cc054e3956470fbd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\52495388d32c0973e39f5e562ef3f6fe\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\bahaa\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e8ea124e03ab18dd9c47f700ea18856d\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from C:\Users\bahaa\WebstormProjects\Native\myScreens - Copy\android\app\src\main\AndroidManifest.xml:1:1-34:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE

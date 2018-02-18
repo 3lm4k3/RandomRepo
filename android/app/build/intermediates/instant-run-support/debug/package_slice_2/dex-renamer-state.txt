@@ -1,4 +1,4 @@
-#Wed Feb 14 13:14:08 EET 2018
-base.0=C\:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+#Sun Feb 18 16:12:08 EET 2018
+base.0=C\:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens - Copy\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\bahaa\\WebstormProjects\\Native\\myScreens\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

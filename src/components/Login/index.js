@@ -1,9 +1,7 @@
 import React from 'react';
 import { 
-  StyleSheet, 
-  Text, 
+  Text,
   View,
-  Dimensions,
   StatusBar,
   Image,
 } from 'react-native';
@@ -63,12 +61,12 @@ export default class Login extends React.Component {
               <Divider/>
               <Form style={styles.loginForm}>
                 <Item last style={cstyles.inputWrapper} >
-                  <Input placeholder="E-mail" placeholderTextColor={"#fff"} keyboardType={"email-address"}
+                  <Input placeholder="E-mail" placeholderTextColor={"rgba(255,255,255,0.5)"} keyboardType={"email-address"}
                    style={cstyles.white} onChangeText={({text}) => {}} />
                 </Item>
                 <Item last style={cstyles.inputWrapper} >
                   <Input placeholder="Password" secureTextEntry={state.secureEntry} style={cstyles.white}
-                   placeholderTextColor={"#fff"} onChangeText={(text) => this.setState({passwordText: text})}  />
+                   placeholderTextColor={"rgba(255,255,255,0.5)"} onChangeText={(text) => this.setState({passwordText: text})}  />
                   {
                     Boolean(state.passwordText) &&
                     <Button transparent onPress={() => this.setState({ secureEntry: !state.secureEntry})} >

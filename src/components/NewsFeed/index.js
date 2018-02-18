@@ -26,7 +26,7 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 
 import Header from "../Header/index"
 import NewStatus from "../NewStatus/index"
-import PostsList from "../PostsList//index"
+import PostsList from "../PostsList/index"
 import SearchBar from "../common/HeaderSearchBar"
 import Carrousel from "../common/Carrousel"
 
@@ -65,6 +65,7 @@ export default class NewsFeed extends React.Component {
     })
   }
   render () {
+    console.log("Width:", Dimensions.get("window").width)
     const { searchText, showImageModal } = this.state
     return (
       <View style={styles.container}>

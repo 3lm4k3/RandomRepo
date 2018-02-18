@@ -18,8 +18,8 @@ export default class extends React.Component {
     return (
       <View style={[styles.Header, { backgroundColor: color }]}>
         {
-          children ? children : 
-            <View style={styles.Header} >
+          children ? children :
+            <View style={styles.headerContent} >
               <View style={cstyles.left}>
                 <Button transparent >
                   <Icon name="arrow-left" size={30} color="#fff" />
@@ -39,6 +39,12 @@ export default class extends React.Component {
 
 const styles = StyleSheet.create({
   Header: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 50,
+    width: Dimensions.get("window").width,
+  },
+  headerContent: {
     alignItems: 'center',
     justifyContent: 'center',
     height: 50,

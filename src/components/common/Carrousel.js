@@ -1,4 +1,5 @@
 import React from "react"
+import EstyleSheet from "react-native-extended-stylesheet"
 
 import {
   View, 
@@ -24,10 +25,15 @@ export default (props) => (
   </View>
 )
 
-const styles = StyleSheet.create({
+const styles = EstyleSheet.create({
   container: {
     marginVertical: 20,
-    paddingHorizontal: 15
+    paddingHorizontal: 15,
   },
-})
+  '@media (min-width: 750) and (max-width: 1000)': { // media queries
+    container: {
+      alignItems: "center",
+    }
+  }
+  })
 

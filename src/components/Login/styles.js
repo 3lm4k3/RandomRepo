@@ -1,8 +1,6 @@
-import {
-  StyleSheet
-} from "react-native"
+import EstyleSheet from "react-native-extended-stylesheet"
 
-export default StyleSheet.create({
+export default EstyleSheet.create({
   linearGradient: {
     flex: 1,
     position: 'absolute',
@@ -64,6 +62,26 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold"
   },
-  
+  "@media (max-width: 500)": {
+    loginOptions: {
+      marginTop: 0,
+      marginBottom: 15
+    },
+    loginOption: {
+      width: 250,
+      height: 40,
+      marginVertical: 5,
+    },
+    loginOptionText: {
+      fontSize: 12
+    },
+    loginForm: {
+      marginVertical: 10
+    },
+    loginButton: {
+      width: 250,
+      alignSelf: "center"
+    }
+  }
 });
 

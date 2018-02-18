@@ -1,9 +1,8 @@
 import React from "react"
-
 import {
   View,
-  StyleSheet,
   Dimensions,
+  StyleSheet,
   Text
 } from "react-native"
 import {
@@ -17,6 +16,8 @@ import Ripple from "react-native-material-ripple"
 import LinearGradient from "react-native-linear-gradient"
 import ImagePicker from "react-native-image-picker"
 import FontAwesome from "react-native-vector-icons/FontAwesome"
+import EStyleSheet from 'react-native-extended-stylesheet';
+
 
 import Divider from "../common/Divider"
 import Button from "../common/RippleButton"
@@ -158,10 +159,10 @@ export default class NewStatus extends React.Component {
   
 
 
-const styles = StyleSheet.create({
+const styles = EStyleSheet.create({
   container: {
     backgroundColor: "#F8F8F8",
-    width: Dimensions.get("window").width, 
+    width: "100%",
     marginVertical: 25,
   },
   postButton: {
@@ -191,5 +192,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 14,
     lineHeight: 50
+  },
+  '@media (min-width: 750) and (max-width: 1000)': { // media queries
+    container: {
+      paddingHorizontal: 100,
+    }
   }
 })

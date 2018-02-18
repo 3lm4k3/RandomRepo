@@ -24,7 +24,7 @@ import { Actions, ActionConst } from "react-native-router-flux"
 import Header from "../Header/index"
 import BidPage from "../BidPage/index"
 import SearchBar from "../common/HeaderSearchBar"
-import DropdownSubNavBar from "../common/DropdownSubNavBar"
+import SubNavBar from "../common/SubNavBar"
 import Picker from "../common/Picker"
 import Tabs from "../common/Tabs"
 import Fab from "../common/Fab"
@@ -77,10 +77,10 @@ export default class Bids extends React.Component {
               </Button>
             </View>
           </Header>
-          <DropdownSubNavBar> 
+          <SubNavBar>
             <Picker filled/>        
             <Picker/>
-          </DropdownSubNavBar>
+          </SubNavBar>
           <Tabs>
             <Tab heading="Bids">
               <AutoLoadList load={() => console.log("loaded")} >

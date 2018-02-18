@@ -1,8 +1,6 @@
 import React from "react"
 import {
   View,
-  StyleSheet,
-  TouchableWithoutFeedback 
 } from "react-native"
 import { 
   Container, 
@@ -11,8 +9,8 @@ import {
   Card, 
   CardItem, 
   Thumbnail, 
-  Text, 
-  Button, 
+  Text,
+  Button,
   Left, 
   Body, 
   Right
@@ -21,6 +19,7 @@ import { Actions } from "react-native-router-flux"
 import ReadMore from "react-native-read-more-text"
 import Icon from "react-native-vector-icons/Feather"
 import IonIcon from "react-native-vector-icons/Ionicons"
+import EstyleSheet from "react-native-extended-stylesheet"
 
 
 import Divider from "../common/Divider"
@@ -101,7 +100,7 @@ export default class Post extends React.Component {
                   {
                     !sponsored  && <Text note>GeekyAnts</Text>
                   }
-                  <Text note style={{color: "#935CAE"}} >December 12 at 5:30 PM</Text>
+                  <Text note style={{color: "#935CAE"}} >Dec 12 at 5:30 PM</Text>
                 </View>
                 {
                   sponsored && <Text style={{color: "#FE8080"}}>Sponsored</Text>
@@ -142,19 +141,19 @@ export default class Post extends React.Component {
             <Left>
               <Button transparent onPress={this.toggleLike} active={liked} >
                 <Icon name="thumbs-up" size={25} color={liked ? "#935CAE" : "#484848"}/>
-                <Text style={{marginLeft: -10, marginTop: 5, color: liked ? "#935CAE" : "#484848"}}>{likes} Likes</Text>
+                <Text style={{marginLeft: -10, marginTop: 5, fontSize: 10, color: liked ? "#935CAE" : "#484848"}}>{likes} Likes</Text>
               </Button>
             </Left>
             <Body>
               <Button transparent onPress={this.toggleComment} >
                 <Icon name="message-square" size={25} color="#484848"/>
-                <Text style={{marginLeft: -10, color: "#484848"}}>4 Comments</Text>
+                <Text style={{marginLeft: -10, color: "#484848", fontSize: 10}}>4 Comments</Text>
               </Button>
             </Body>
             <Right >
             <Button transparent onPress={this.handleShare} >
                 <IonIcon name="ios-share-alt-outline" size={25} color="#484848"/>
-                <Text style={{marginLeft: -10, color: "#484848"}}>Share</Text>
+                <Text style={{marginLeft: -10, color: "#484848", fontSize: 10}}>Share</Text>
               </Button>
             </Right>
           </View>
@@ -166,10 +165,10 @@ export default class Post extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = EstyleSheet.create({
   container: {
     backgroundColor: "#F8F8F8",
-    marginVertical: 10
+    marginVertical: 5,
   },
   card: {
   },
@@ -190,5 +189,10 @@ const styles = StyleSheet.create({
   },
   price: {
     color: "#FE8080"
+  },
+  '@media (min-width: 750) and (max-width: 1000)': { // media queries
+    container: {
+      marginHorizontal: 100
+    }
   }
-})
+  })
